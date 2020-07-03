@@ -6,7 +6,7 @@ package com.ting.design.strategy;
  * @author lishuang
  * @date 2020/07/03
  */
-public class SuperMenber implements Member {
+public class SuperMember implements Member {
     /**
      * 计算价格
      * 超级会员 7折

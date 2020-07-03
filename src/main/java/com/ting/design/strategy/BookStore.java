@@ -38,7 +38,7 @@ import lombok.extern.slf4j.Slf4j;
 public class BookStore {
     public static void main(String[] args) {
         //选择并创建需要使用的策略对象
-        Member superMenber = new SuperMenber();
+        Member superMenber = new SuperMember();
         //创建环境
         Cashier cashier = new Cashier(superMenber);
         // 计算价格
