@@ -50,7 +50,7 @@ public class BookStore {
         //创建环境
         Cashier cashier1 = new Cashier(primaryMember);
         // 计算价格
-        double quote1 = cashier.quote(100);
+        double quote1 = cashier1.quote(100);
         log.info("初级会员购书价格{}", quote1);
 
     }
