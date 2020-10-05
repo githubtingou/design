@@ -7,7 +7,7 @@ package com.ting.design.single;
  * <p>
  * 缺点：非线程安全。
  *
- * @author lishuang
+ * @author ting
  * @date 2020/06/15
  */
 public class Slovenly {

@@ -3,7 +3,7 @@ package com.ting.design.strategy;
 /**
  * 初级会员
  *
- * @author lishuang
+ * @author ting
  * @date 2020/07/03
  */
 public class PrimaryMember implements Member {

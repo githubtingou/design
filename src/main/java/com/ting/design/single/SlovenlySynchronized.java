@@ -7,7 +7,7 @@ package com.ting.design.single;
  * <p>
  * 缺点：synchronized 为独占排他锁，并发性能差。即使在创建成功以后，获取实例仍然是串行化操作。
  *
- * @author lishuang
+ * @author ting
  * @date 2020/06/15
  */
 public class SlovenlySynchronized {

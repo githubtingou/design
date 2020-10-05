@@ -14,7 +14,7 @@ package com.ting.design.factory.simple;
  * <p>
  * 2 不同的产品需要不同额外参数的时候 不支持。
  *
- * @author lishuang
+ * @author ting
  * @date 2020/06/16
  */
 public class SimpleFactory {

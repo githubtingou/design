@@ -3,7 +3,7 @@ package com.ting.design.strategy;
 /**
  * 中级会员
  *
- * @author lishuang
+ * @author ting
  * @date 2020/07/03
  */
 public class IntermediateMenber implements Member {

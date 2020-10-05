@@ -3,7 +3,7 @@ package com.ting.design.factory.simple;
 /**
  * 简单工厂模式-提供食物的厨师
  *
- * @author lishuang
+ * @author ting
  * @date 2020/06/16
  */
 public class ZhangSanCookImpl implements IRestaurant{

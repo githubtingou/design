@@ -3,7 +3,7 @@ package com.ting.design.builder;
 /**
  * 建造模式-抽象类
  *
- * @author lishuang
+ * @author ting
  * @date 2020/06/16
  */
 public abstract class AbstractNoodle {

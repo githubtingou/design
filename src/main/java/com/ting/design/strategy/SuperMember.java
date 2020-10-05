@@ -3,7 +3,7 @@ package com.ting.design.strategy;
 /**
  * 超级会员
  *
- * @author lishuang
+ * @author ting
  * @date 2020/07/03
  */
 public class SuperMember implements Member {

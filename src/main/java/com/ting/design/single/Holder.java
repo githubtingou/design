@@ -5,7 +5,7 @@ package com.ting.design.single;
  * <p>
  * 优点：将懒加载和线程安全完美结合的一种方式（无锁）。
  *
- * @author lishuang
+ * @author ting
  * @date 2020/06/15
  */
 public class Holder {

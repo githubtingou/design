@@ -3,7 +3,7 @@ package com.ting.design.strategy;
 /**
  * 会员
  *
- * @author lishuang
+ * @author ting
  * @date 2020/07/03
  */
 public interface Member {

@@ -7,7 +7,7 @@ package com.ting.design.single;
  * <p>
  * 缺点：启动时即创建实例，启动慢，有可能造成资源浪费。
  *
- * @author lishuang
+ * @author ting
  * @date 2020/06/15
  */
 public class Hungry {

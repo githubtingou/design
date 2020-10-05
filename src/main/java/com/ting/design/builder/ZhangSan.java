@@ -3,7 +3,7 @@ package com.ting.design.builder;
 /**
  * 建造者模式-张三
  *
- * @author lishuang
+ * @author ting
  * @date 2020/06/16
  */
 public class ZhangSan extends AbstractNoodle {

@@ -7,7 +7,7 @@ package com.ting.design.single;
  * <p>
  * 注：实例必须有 volatile 关键字修饰，其保证初始化完全。
  *
- * @author lishuang
+ * @author ting
  * @date 2020/06/15
  */
 public class SlovenlySynchronized01 {

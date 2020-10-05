@@ -3,7 +3,7 @@ package com.ting.design.template;
 /**
  * 模板类-李四
  *
- * @author lishuang
+ * @author ting
  * @date 2020/06/16
  */
 public class LiSi extends AbstractTemplate {
@@ -15,6 +15,7 @@ public class LiSi extends AbstractTemplate {
      */
     @Override
     void buy(String noodelName) {
+        super.name = "2";
         System.out.println("买" + noodelName + "泡面");
     }
 
@@ -49,6 +50,12 @@ public class LiSi extends AbstractTemplate {
 
     public static void main(String[] args) {
         LiSi liSi = new LiSi();
+//        liSi.name = "250";
         liSi.step("统一", "山泉水", "叉子");
+        System.out.println(liSi.name);
+        ZhanSan zhanSan = new ZhanSan();
+        zhanSan.step("统一", "山泉水", "叉子");
+        zhanSan.name = "500";
+        System.out.println(zhanSan.name);
     }
 }

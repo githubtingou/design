@@ -3,10 +3,12 @@ package com.ting.design.template;
 /**
  * 模板类-抽象类
  *
- * @author lishuang
+ * @author ting
  * @date 2020/06/16
  */
 public abstract class AbstractTemplate {
+
+    public String name = "0";
 
     /**
      * 执行步骤
