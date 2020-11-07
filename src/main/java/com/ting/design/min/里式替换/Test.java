@@ -11,18 +11,18 @@ import java.util.HashMap;
  */
 public class Test {
     public static void main(String[] args) {
-//        Soldier soldier = new Soldier().setAbstractGun(new Rifle());
-//        soldier.kill();
-//
-//
-//        Snipper snipper = new Snipper();
-//        snipper.killEnemies(new AUG());
+        Soldier soldier = new Soldier().setAbstractGun(new Rifle());
+        soldier.kill();
+
+
+        Snipper snipper = new Snipper();
+        snipper.killEnemies(new AUG());
 
         invoker();
 
     }
 
-    public static void  invoker(){
+    public static void invoker() {
         Father father = new Father();
         HashMap hashMap = new HashMap();
         father.doSomeThing(hashMap);
